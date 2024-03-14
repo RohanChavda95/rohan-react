@@ -1,0 +1,58 @@
+/* .BackGround{
+    background-color: darkgreen;
+}
+
+.heading{
+    color: blueviolet;
+    margin-bottom: 30px;
+}
+
+.imagetag{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.detailbox{
+    border: 2px solid black;
+    gap: 5;
+}
+
+.btnpos{
+    bottom: 5px;
+    right: 5px;
+} */
+
+
+/* Data.module.css */
+
+.BackGround {
+    background-color: darkgreen;
+  }
+  
+  .heading {
+    color: blueviolet;
+    margin-bottom: 30px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .imagetag {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block; /* Ensure images are displayed as blocks */
+    margin: 0 auto; /* Center the images */
+  }
+  
+  .detailbox {
+    border: 2px solid black;
+    padding: 10px; /* Add padding for better spacing */
+    margin-bottom: 20px; /* Add space between detail boxes */
+  }
+  
+  .btnpos {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+  
